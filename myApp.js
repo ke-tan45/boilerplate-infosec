@@ -1,7 +1,25 @@
 const express = require('express');
 const app = express();
-
-
+{
+	"name": "fcc-infosec-challenges",
+	"version": "0.0.1",
+	"description": "fcc backend boilerplate",
+	"main": "server.js",
+	"scripts": {
+		"start": "node myApp.js"
+	},
+	"dependencies": {
+		"express": "^4.14.0",
+		"helmet": "3.21.3"
+	},
+	"keywords": [
+		"node",
+		"hyperdev",
+		"express",
+		"freecodecamp"
+	],
+	"license": "MIT"
+}
 
 
 
